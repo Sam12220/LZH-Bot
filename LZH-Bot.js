@@ -61,6 +61,6 @@ client.on('ready', function() {
 
 
 
-client.login(config.token)
+client.login(process.env.TOKEN)
 
 
